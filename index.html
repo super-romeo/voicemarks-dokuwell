@@ -16,6 +16,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta name="description" content="Record spoken feedback and attach it to a cell in Google Sheets or a passage in Docs, with a transcript, so students can listen right where the work is.">
 <link rel="icon" href="favicon.svg">
 <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="variant.css">
 <script src="smoke.js" defer></script>
 <!-- faq-jsonld:start -->
 <script type="application/ld+json">
@@ -75,38 +79,68 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 <!-- Google Tag Manager (noscript): по заказу «Смоков» (СМ-09) -->
 
-<header><div class="wrap">
-  <div class="logo"><a href="index.html" data-ev="click_logo_home">Sheet Voice Notes</a></div>
-  <nav class="top"><a href="#what" data-ev="click_nav_what">What you get</a><a href="price.html" data-ev="click_nav_price">Price</a><a href="#example" data-ev="click_nav_example">Example</a><a href="#start" data-ev="click_nav_start">Start</a></nav>
+<header><div class="shell">
+  <a class="home" href="index.html" data-ev="click_logo_home">Sheet Voice Notes</a>
+  <nav><a href="#what" data-ev="click_nav_what">What you get</a><a href="price.html" data-ev="click_nav_price">Price</a><a href="#example" data-ev="click_nav_example">Example</a><a href="#start" data-ev="click_nav_start">Start</a></nav>
 </div></header>
 
-<div class="wrap">
-  <div class="hero">
-    <h1>Spoken feedback right inside Google Sheets and Docs — recorded in seconds, with a transcript</h1>
-    <p class="sub">For teachers and school staff who work in Google Workspace: select a cell, a row or a passage, record a short voice note, and it stays attached there with a written transcript, so students and colleagues can listen or read in place.</p>
-    <a class="cta" href="price.html" data-ev="cta_click">I need this</a>
-    <p class="cta-note">Early access · No payment is taken on this page yet</p>
-  </div>
+<main class="shell">
+  <section class="split">
+    <div class="stack">
+      <p class="meta rise"><span class="dot"></span> For teachers and school staff</p>
+      <h1 class="rise" style="--i:1" data-len="long">Spoken feedback right inside Google Sheets and Docs&nbsp;<span class="soft">— recorded in seconds, with a transcript</span></h1>
+      <p class="rise" style="--i:2">For teachers and school staff who work in Google Workspace: select a cell, a row or a passage, record a short voice note, and it stays attached there with a written transcript, so students and colleagues can listen or read in place.</p>
+      <a class="button rise" style="--i:3" href="price.html" data-ev="cta_click">I need this</a>
+      <p class="meta rise" style="--i:4">Early access · No payment is taken on this page yet</p>
+    </div>
+    <figure class="window rise" style="--i:2"><svg aria-hidden="true" focusable="false" class="shot" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><rect x="80" y="80" width="1040" height="640" fill="#ffffff" rx="24" stroke="#dde2ea" stroke-width="3" /><text x="130" y="168" font-size="40" fill="#0a1524" font-weight="600">Spoken feedback</text><line x1="110" y1="214" x2="1090" y2="214" stroke="#dde2ea" stroke-width="3" /><rect x="130" y="260" width="44" height="44" fill="#12397a" rx="8" /><text x="200" y="294" font-size="32" fill="#0a1524" font-weight="600">Record in place</text><rect x="130" y="350" width="44" height="44" fill="#dfe8f7" rx="8" /><text x="200" y="384" font-size="32" fill="#0a1524" font-weight="600">Transcript</text><rect x="130" y="440" width="44" height="44" fill="#dfe8f7" rx="8" /><text x="200" y="474" font-size="32" fill="#0a1524" font-weight="600">Your notes</text><rect x="130" y="530" width="44" height="44" fill="#dfe8f7" rx="8" /><text x="200" y="564" font-size="32" fill="#0a1524" font-weight="600">In the file</text><rect x="700" y="260" width="370" height="400" fill="#dfe8f7" rx="20" /><text x="730" y="330" font-size="34" fill="#0a1524" font-weight="600">Google Sheets</text><rect x="740" y="450" width="48" height="160" fill="#ffffff" rx="8" stroke="#dde2ea" stroke-width="3" /><rect x="818" y="510" width="48" height="100" fill="#ffffff" rx="8" stroke="#dde2ea" stroke-width="3" /><rect x="896" y="400" width="48" height="210" fill="#12397a" rx="8" /><rect x="974" y="530" width="48" height="80" fill="#ffffff" rx="8" stroke="#dde2ea" stroke-width="3" /></svg></figure>
+    <dl class="facts">
+      <div><dt>For</dt><dd>Teachers and school staff</dd></div>
+      <div><dt>Record</dt><dd>A short voice note</dd></div>
+      <div><dt>Select</dt><dd>A cell or a row</dd></div>
+      <div><dt>Access</dt><dd>Early access</dd></div>
+    </dl>
+  </section>
 
   <section id="what" data-view="features_view">
-    <h2>What you get</h2>
-    <div class="grid">
-      <div class="card"><b>Record in place</b><span>A voice note attached to a cell, a row or selected text.</span><br><a class="btn" href="price.html" data-ev="feature_record">I need this</a></div>
-      <div class="card"><b>Transcript</b><span>Each note has a written transcript next to the audio.</span><br><a class="btn" href="price.html" data-ev="feature_transcript">I need this</a></div>
-      <div class="card"><b>Listen in the file</b><span>Students open the note where the work is, no extra app.</span><br><a class="btn" href="price.html" data-ev="feature_listen">I need this</a></div>
-      <div class="card"><b>Your notes</b><span>All notes in one list, ready to reuse for common comments.</span><br><a class="btn" href="price.html" data-ev="feature_library">I need this</a></div>
+    <div class="stack"><h2>What you get</h2></div>
+    <div class="bento">
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="70" width="640" height="460" fill="#ffffff" rx="22" stroke="#dde2ea" stroke-width="3" /><text x="120" y="148" font-size="34" fill="#0a1524" font-weight="600">Record in place</text><rect x="270" y="200" width="250" height="290" fill="#ffffff" rx="36" stroke="#dde2ea" stroke-width="3" /><rect x="300" y="236" width="190" height="70" fill="#dfe8f7" rx="12" /><rect x="300" y="328" width="150" height="16" fill="#dde2ea" rx="8" /><rect x="300" y="360" width="110" height="16" fill="#b9c3d2" rx="8" /><circle cx="395" cy="450" r="16" fill="#12397a" /></svg></div>
+        <h3>Record in place</h3><p>A voice note attached to a cell, a row or selected text.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_record">I need this</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="70" width="640" height="460" fill="#ffffff" rx="22" stroke="#dde2ea" stroke-width="3" /><text x="120" y="148" font-size="34" fill="#0a1524" font-weight="600">Transcript</text><rect x="140" y="200" width="340" height="270" fill="#ffffff" rx="16" stroke="#dde2ea" stroke-width="3" /><rect x="170" y="236" width="240" height="18" fill="#12397a" rx="8" /><rect x="170" y="288" width="180" height="18" fill="#dde2ea" rx="8" /><rect x="170" y="340" width="200" height="18" fill="#dde2ea" rx="8" /><rect x="170" y="392" width="140" height="18" fill="#dde2ea" rx="8" /><circle cx="560" cy="330" r="52" fill="#dfe8f7" /><polyline points="534,332 552,354 590,300" fill="none" stroke="#12397a" stroke-width="8" /></svg></div>
+        <h3>Transcript</h3><p>Each note has a written transcript next to the audio.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_transcript">I need this</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="70" width="640" height="460" fill="#ffffff" rx="22" stroke="#dde2ea" stroke-width="3" /><text x="120" y="148" font-size="34" fill="#0a1524" font-weight="600">Listen in the file</text><rect x="140" y="210" width="500" height="150" fill="#ffffff" rx="24" stroke="#dde2ea" stroke-width="3" /><polygon points="200,360 240,360 210,400" fill="#ffffff" /><rect x="140" y="430" width="200" height="52" fill="#12397a" rx="26" /><rect x="180" y="250" width="320" height="18" fill="#dde2ea" rx="8" /><rect x="180" y="290" width="220" height="18" fill="#b9c3d2" rx="8" /></svg></div>
+        <h3>Listen in the file</h3><p>Students open the note where the work is, no extra app.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_listen">I need this</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="70" width="640" height="460" fill="#ffffff" rx="22" stroke="#dde2ea" stroke-width="3" /><text x="120" y="148" font-size="34" fill="#0a1524" font-weight="600">Your notes</text><rect x="140" y="206" width="44" height="44" fill="#dfe8f7" rx="8" /><polyline points="152,230 164,240 178,220" fill="none" stroke="#12397a" stroke-width="6" /><rect x="210" y="216" width="250" height="24" fill="#dde2ea" rx="12" /><rect x="140" y="294" width="44" height="44" fill="#dfe8f7" rx="8" /><rect x="210" y="304" width="180" height="24" fill="#b9c3d2" rx="12" /><rect x="140" y="382" width="44" height="44" fill="#dfe8f7" rx="8" /><polyline points="152,406 164,416 178,396" fill="none" stroke="#12397a" stroke-width="6" /><rect x="210" y="392" width="220" height="24" fill="#dde2ea" rx="12" /></svg></div>
+        <h3>Your notes</h3><p>All notes in one list, ready to reuse for common comments.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_library">I need this</a>
+      </article>
     </div>
   </section>
 
-  <section id="example" data-view="example_view">
-    <h2>Example (fictional data)</h2>
-    <p class="fine">A middle school teacher tracks 28 lab reports in a Google Sheet, one row per student. Instead of typing a paragraph in each comment, she records a 40-second note on each row while reading the report. Students open the shared sheet, play their note and read the transcript; two parents at a conference listen to the same notes on the teacher's laptop.</p>
-    <a class="cta" href="price.html" data-ev="click_cta_after_example">Choose your plan</a>
+  <section id="example" data-view="example_view" class="split flip">
+    <div class="stack">
+      <h2>Example</h2>
+      <p>A middle school teacher tracks 28 lab reports in a Google Sheet, one row per student. Instead of typing a paragraph in each comment, she records a 40-second note on each row while reading the report. Students open the shared sheet, play their note and read the transcript; two parents at a conference listen to the same notes on the teacher's laptop.</p>
+    <a class="button" href="price.html" data-ev="click_cta_after_example">Choose your plan</a>
+    </div>
+<svg aria-hidden="true" focusable="false" class="shot reveal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><line x1="240" y1="150" x2="960" y2="150" stroke="#dde2ea" stroke-width="6" /><circle cx="240" cy="150" r="20" fill="#ffffff" stroke="#12397a" stroke-width="6" /><text x="240" y="230" font-size="34" fill="#0a1524" font-weight="600" text-anchor="middle">lab reports</text><circle cx="600" cy="150" r="20" fill="#ffffff" stroke="#12397a" stroke-width="6" /><text x="600" y="230" font-size="34" fill="#0a1524" font-weight="600" text-anchor="middle">40-second note</text><circle cx="960" cy="150" r="20" fill="#12397a" /><text x="960" y="230" font-size="34" fill="#0a1524" font-weight="600" text-anchor="middle">the transcript</text><rect x="120" y="300" width="960" height="420" fill="#ffffff" rx="24" stroke="#dde2ea" stroke-width="3" /><text x="170" y="390" font-size="38" fill="#0a1524" font-weight="600">shared sheet</text><text x="170" y="470" font-size="32" fill="#566174">one row per student</text><rect x="170" y="540" width="64" height="64" fill="#dfe8f7" rx="12" /><rect x="266" y="540" width="64" height="64" fill="#12397a" rx="12" /><rect x="362" y="540" width="64" height="64" fill="#dde2ea" rx="12" /><rect x="458" y="540" width="64" height="64" fill="#b9c3d2" rx="12" /></svg>
   </section>
 <!-- seo-tekst:start -->
-  <section id="opis">
-    <h2>How it works</h2>
-    <p>Teachers give a lot of written feedback: comments in documents, notes in grade sheets, remarks on projects and lab reports. Typing the same kind of comment for thirty students takes time, and short written remarks often lose the tone and the detail that a teacher would give when speaking.</p>
+  <section id="opis" class="split flip">
+    <div class="stack"><h2>How it works</h2></div>
+    <div class="stack">
+      <p>Teachers give a lot of written feedback: comments in documents, notes in grade sheets, remarks on projects and lab reports. Typing the same kind of comment for thirty students takes time, and short written remarks often lose the tone and the detail that a teacher would give when speaking.</p>
     <p>Spoken feedback is quicker to give and often easier for students to take in. Many teachers already record short audio for their classes, but the recordings end up as separate files in a drive or a messaging app, away from the work they are about.</p>
     <p>The service adds voice notes to Google Sheets and Google Docs. In a sheet you select a cell or a row; in a document you select a passage. You record a short note, and it is attached to that place in the file.</p>
     <p>Each note gets a written transcript next to the audio. Students can listen, read, or both, and the transcript makes notes easy to search later. Notes can also be translated for families who read another language.</p>
@@ -118,31 +152,34 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <p>Recording takes only a microphone in the browser, on a laptop or a Chromebook. A note can be played back and recorded again before it is attached, and a teacher can delete or replace a note at any time.</p>
     <p>The service is in preparation: we are checking whether teachers need it before it is built.</p>
     <p>Voice recordings of teachers and students are personal data. Which notes are recorded, who they are shared with and how long they are kept stay under the school's own privacy policies.</p>
+    </div>
   </section>
   <section id="faq">
-    <h2>Questions</h2>
-    <h3>Who is it for?</h3>
-    <p>US teachers and school staff who give feedback in Google Sheets and Google Docs.</p>
-    <h3>Where do the voice notes go?</h3>
-    <p>They are attached to a cell, a row or a passage in the file and play in place.</p>
-    <h3>Is there a transcript?</h3>
-    <p>Yes. Each note has a written transcript next to the audio.</p>
-    <h3>Can a school buy seats for all teachers?</h3>
-    <p>Yes. A school plan gives each teacher a seat.</p>
-    <h3>Can I use it already?</h3>
-    <p>Not yet. The service is in preparation, and we are checking whether teachers need it.</p>
+    <div class="stack"><h2>Questions</h2></div>
+    <div class="rows">
+      <div class="split flip"><h3>Who is it for?</h3><p>US teachers and school staff who give feedback in Google Sheets and Google Docs.</p></div>
+      <div class="split flip"><h3>Where do the voice notes go?</h3><p>They are attached to a cell, a row or a passage in the file and play in place.</p></div>
+      <div class="split flip"><h3>Is there a transcript?</h3><p>Yes. Each note has a written transcript next to the audio.</p></div>
+      <div class="split flip"><h3>Can a school buy seats for all teachers?</h3><p>Yes. A school plan gives each teacher a seat.</p></div>
+      <div class="split flip"><h3>Can I use it already?</h3><p>Not yet. The service is in preparation, and we are checking whether teachers need it.</p></div>
+    </div>
   </section>
 <!-- seo-tekst:end -->
-  <section id="start" data-view="start_view">
-    <h2>Record your first note</h2>
-    <p><label>Students you give feedback to<br><select data-ev-focus="form_start" style="margin-top:6px;padding:8px;font-size:16px"><option value="">— please choose —</option><option>Up to 30</option><option>30–100</option><option>100–300</option><option>More than 300</option></select></label></p>
-    <a class="cta" href="price.html" data-ev="form_submit_click">Start</a>
+  <section id="start" data-view="start_view" class="split">
+    <div class="stack">
+      <h2>Record your first note</h2>
+    </div>
+    <div class="tile stack">
+      <label>Students you give feedback to<select data-ev-focus="form_start"><option value="">— please choose —</option><option>Up to 30</option><option>30–100</option><option>100–300</option><option>More than 300</option></select></label>
+      <a class="button" href="price.html" data-ev="form_submit_click">Start</a>
+    </div>
   </section>
-</div>
+</main>
 
-<footer><div class="wrap">
+<footer><div class="shell">
+  <p><b>Sheet Voice Notes</b></p>
   <p><a href="privacy.html" data-ev="click_legal_privacy">Privacy</a></p>
-  <p class="muted">Voice notes attached to Google Sheets and Docs. Recording and sharing of student data stay under the school's privacy policies.</p>
+  <p>Voice notes attached to Google Sheets and Docs. Recording and sharing of student data stay under the school's privacy policies.</p>
 </div></footer>
 
 </body>
